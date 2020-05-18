@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
 	<meta charset="utf-8">
 	<title>Расписание занятий МТ-202</title>
 	<style type="text/css">
+		
 		html {
   			font-family: sans-serif;
 		}
@@ -52,59 +51,76 @@
 		  	padding: 1px 20px;
 		  	font-size: 11px;
 		}
+
+		.number {
+			border: 1px solid black;
+		  	padding: 2px 2px;
+		  	font-size: 11px;
+		}
+
+		.number-razdel {
+			border: 2px solid black;
+		  	padding: 1px 2px;
+			background-color: #bdbdbd;
+		}
 		
 		td {
 		  	text-align: center;
 		}
 	</style>
 </head>
+
 <body>
 	<table align="center">
-		<td id="mt-202">MT-202</td>
-		<tr><td class="nepusto">ФИЛОСОФИЯ (ЛЕК.)<br/>КАМАЛЕТДИНОВА А.Я., ДОЦЕНТ, АУД. А-23</td></tr>
-		<tr><td class="nepusto">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ЛЕК.)<br/>ДЕМЕНТЬЕВ О.Н., ЗАВ.КАФ., АУД. 435</td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="razdel"></td></tr>
-		<tr><td class="samoden">ДЕНЬ</td></tr>
-		<tr><td class="samoden">САМОСТОЯТЕЛЬНЫХ</td></tr>
-		<tr><td class="samoden">ЗАНЯТИЙ</td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="razdel"></td></tr>
-		<tr><td class="nepusto">ИНТЕРНЕТ-ТЕХНОЛОГИИ (ЛАБ.)<br/>АБАИМОВ А.А., АССИСТЕНТ, АУД 422</td></tr>
-		<tr><td class="nepusto-paral">1Н МАТЕМАТИЧЕСКАЯ ЛОГИКА И ТЕОРИЯ АЛГОРИТМОВ (ПР.)<br/>КАЗАКОВ А.А. СТ. ПРЕПОДАВАТЕЛЬ, АУД. 013</td></tr>
-		<tr><td class="nepusto-paral">2Н ОПЕРАЦИОННЫЕ СИСТЕМЫ (ПР.)<br/>АБАИМОВ А.А., АССИСТЕНТ, АУД 422</td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="razdel"></td></tr>
-		<tr><td class="nepusto">ПРИКЛАДНАЯ И ОЗДОРОВИТЕЛЬНАЯ ФИЗИЧЕСКАЯ КУЛЬТУРА (ПР.)<br/>МАРКЕЛОВ И.П., ПРЕПОДАВАТЕЛЬ, 100 (4К.)</td></tr>
-		<tr><td class="nepusto">МАТЕМАТИЧЕСКАЯ ЛОГИКА И ТЕОРИЯ АЛГОРИТМОВ (ЛЕК.)<br/>МИТИНА О.В., ДОЦЕНТ, АУД. А-17</td></tr>
-		<tr><td class="nepusto">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ПР.)<br/>РЯЗАНОВ К.А., АУД. 316</td></tr>
-		<tr><td class="nepusto">ОПЕРАЦИОННЫЕ СИСТЕМЫ (ЛЕК.)<br/>СКРИПОВ С.А., ДОЦЕНТ, АУД. А-17</td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="razdel"></td></tr>
-		<tr><td class="nepusto">ИНОСТРАННЫЙ ЯЗЫК (ПР.)<br/>МУХАРКИНА В.С., АССИСТЕНТ, АУД. 011</td></tr>
-		<tr><td class="nepusto">ВВЕДИНИЕ В АНАЛИЗ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ (ЛЕК.)<br/>ПАНАСЕНКО Д.И., АУД. А-15</td></tr>
-		<tr><td class="nepusto">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ПР.)<br/>РЯЗАНОВ К.А., АУД. 316</td></tr>
-		<tr><td class="pusto-paral"></td></tr>
-		<tr><td class="nepusto-paral">2Н ВВЕДИНИЕ В АНАЛИЗ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ (ПР.)<br/>ПАНАСЕНКО Д.И., АУД. 423</td></tr>
-		<tr><td class="pusto-paral"></td></tr>
-		<tr><td class="nepusto-paral">2Н КОМПЬЮТЕРНАЯ ГРАФИКА (ПР.)<br/>МАКОВЕЦКИЙ А.Ю., ДОЦЕНТ, АУД. 422</td></tr>
-		<tr><td class="razdel"></td></tr>
-		<tr><td class="pusto"></td></tr>
-		<tr><td class="nepusto">КОМПЬЮТЕРНАЯ ГРАФИКА (ЛЕК.)<br/>МАКОВЕЦКИЙ А.Ю., ДОЦЕНТ, АУД. А-13</td></tr>
-		<tr><td class="nepusto">ИНТЕРНЕТ-ТЕХНОЛОГИИ (ЛЕК.)<br/>ПОТАПОВ В.В., АУД А-13</td></tr>
-		<tr><td class="pusto"></td></tr>
+		
+
+		<tr><td class="number" colspan="2"></td><td id="mt-202">MT-202</td></tr>
+
+		<tr><td class="number" rowspan="4"><div style="width: .7em; width: 1ch; text-align: center; font: Consolas, Monaco, monospace; word-wrap: break-word;">ПОНЕДЕЛЬНИК</div></td><td class="number">1</td><td class="nepusto">ФИЛОСОФИЯ (ЛЕК.)<br>КАМАЛЕТДИНОВА А.Я., ДОЦЕНТ, АУД. А-23</td></tr>
+		<tr><td class="number">2</td><td class="nepusto">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ЛЕК.)<br>ДЕМЕНТЬЕВ О.Н., ЗАВ.КАФ., АУД. 435</td></tr>
+		<tr><td class="number">3</td><td class="pusto"></td></tr>
+		<tr><td class="number">4</td><td class="pusto"></td></tr>
+
+		<tr><td class="number-razdel" colspan="2"></td><td class="razdel"></td></tr>
+		<tr><td class="number" rowspan="4"><div style="width: .7em; width: 1ch; text-align: center; font: Consolas, Monaco, monospace; word-wrap: break-word;">ВТОРНИК</div></td><td class="number">1</td><td class="samoden">ДЕНЬ</td></tr>
+		<tr><td class="number">2</td><td class="samoden">САМОСТОЯТЕЛЬНЫХ</td></tr>
+		<tr><td class="number">3</td><td class="samoden">ЗАНЯТИЙ</td></tr>
+		<tr><td class="number">4</td><td class="pusto"></td></tr>
+
+		<tr><td class="number-razdel" colspan="2"></td><td class="razdel"></td></tr>
+		<tr><td class="number" rowspan="7"><div style="width: .7em; width: 1ch; text-align: center; font: Consolas, Monaco, monospace; word-wrap: break-word;">СРЕДА</div></td><td class="number">1</td><td class="nepusto">ИНТЕРНЕТ-ТЕХНОЛОГИИ (ЛАБ.)<br>АБАИМОВ А.А., АССИСТЕНТ, АУД 422</td></tr>
+		<tr><td class="number" rowspan="2">2</td><td class="nepusto-paral">1Н МАТЕМАТИЧЕСКАЯ ЛОГИКА И ТЕОРИЯ АЛГОРИТМОВ (ПР.)<br>КАЗАКОВ А.А. СТ. ПРЕПОДАВАТЕЛЬ, АУД. 013</td></tr>
+		<tr><td class="nepusto-paral">2Н ОПЕРАЦИОННЫЕ СИСТЕМЫ (ПР.)<br>АБАИМОВ А.А., АССИСТЕНТ, АУД 422</td></tr>
+		<tr><td class="number">3</td><td class="pusto"></td></tr>
+		<tr><td class="number">4</td><td class="pusto"></td></tr>
+		<tr><td class="number">5</td><td class="pusto"></td></tr>
+		<tr><td class="number">6</td><td class="pusto"></td></tr>
+
+		<tr><td class="number-razdel" colspan="2"></td><td class="razdel"></td></tr>
+		<tr><td class="number" rowspan="6"><div style="width: .7em; width: 1ch; text-align: center; font: Consolas, Monaco, monospace; word-wrap: break-word;">ЧЕТВЕРГ</div></td><td class="number">1</td><td class="nepusto">ПРИКЛАДНАЯ И ОЗДОРОВИТЕЛЬНАЯ ФИЗИЧЕСКАЯ КУЛЬТУРА (ПР.)<br>МАРКЕЛОВ И.П., ПРЕПОДАВАТЕЛЬ, 100 (4К.)</td></tr>
+		<tr><td class="number">2</td><td class="nepusto">МАТЕМАТИЧЕСКАЯ ЛОГИКА И ТЕОРИЯ АЛГОРИТМОВ (ЛЕК.)<br>МИТИНА О.В., ДОЦЕНТ, АУД. А-17</td></tr>
+		<tr><td class="number">3</td><td class="nepusto">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ПР.)<br>РЯЗАНОВ К.А., АУД. 316</td></tr>
+		<tr><td class="number">4</td><td class="nepusto">ОПЕРАЦИОННЫЕ СИСТЕМЫ (ЛЕК.)<br>СКРИПОВ С.А., ДОЦЕНТ, АУД. А-17</td></tr>
+		<tr><td class="number">5</td><td class="pusto"></td></tr>
+		<tr><td class="number">6</td><td class="pusto"></td></tr>
+
+		<tr><td class="number-razdel" colspan="2"></td><td class="razdel"></td></tr>
+		<tr><td class="number" rowspan="7"><div style="width: .7em; width: 1ch; text-align: center; font: Consolas, Monaco, monospace; word-wrap: break-word;">ПЯТНИЦА</div></td><td class="number">1</td><td class="nepusto">ИНОСТРАННЫЙ ЯЗЫК (ПР.)<br>МУХАРКИНА В.С., АССИСТЕНТ, АУД. 011</td></tr>
+		<tr><td class="number">2</td><td class="nepusto">ВВЕДИНИЕ В АНАЛИЗ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ (ЛЕК.)<br>ПАНАСЕНКО Д.И., АУД. А-15</td></tr>
+		<tr><td class="number">3</td><td class="nepusto">ДИФФЕРЕНЦИАЛЬНЫЕ И РАЗНОСТНЫЕ УРАВНЕНИЯ (ПР.)<br>РЯЗАНОВ К.А., АУД. 316</td></tr>
+		<tr><td class="number" rowspan="2">4</td><td class="pusto-paral"></td></tr>
+		<tr><td class="nepusto-paral">2Н ВВЕДИНИЕ В АНАЛИЗ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ (ПР.)<br>ПАНАСЕНКО Д.И., АУД. 423</td></tr>
+		<tr><td class="number" rowspan="2">5</td><td class="pusto-paral"></td></tr>
+		<tr><td class="nepusto-paral">2Н КОМПЬЮТЕРНАЯ ГРАФИКА (ПР.)<br>МАКОВЕЦКИЙ А.Ю., ДОЦЕНТ, АУД. 422</td></tr>
+
+		<tr><td class="number-razdel" colspan="2"></td><td class="razdel"></td></tr>
+		<tr><td class="number" rowspan="4"><div style="width: .7em; width: 1ch; text-align: center; font: Consolas, Monaco, monospace; word-wrap: break-word;">СУББОТА</div></td><td class="number">1</td><td class="pusto"></td></tr>
+		<tr><td class="number">2</td><td class="nepusto">КОМПЬЮТЕРНАЯ ГРАФИКА (ЛЕК.)<br>МАКОВЕЦКИЙ А.Ю., ДОЦЕНТ, АУД. А-13</td></tr>
+		<tr><td class="number">3</td><td class="nepusto">ИНТЕРНЕТ-ТЕХНОЛОГИИ (ЛЕК.)<br>ПОТАПОВ В.В., АУД А-13</td></tr>
+		<tr><td class="number">4</td><td class="pusto"></td></tr>
 
 		<a href="http://math.csu.ru/new_files/students/rasp_2019_2020_2.pdf">Оригинальное расписание</a>
-
-
-
-
-
+		
 	</table>
-</body>
-</html>
+
+</body></html>
